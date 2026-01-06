@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUMS Dashboard | FlowOptimal</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="dashboard-header">
+        <h1>SUMS Dashboard</h1>
+        <p>Smart Urban Mobility System • FlowOptimal</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="dashboard-container">
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <h2>Urban Route Visualization</h2>
+            <p class="section-description">
+                This section represents the city-wide mobility map where
+                optimized routes, traffic density, and smart flow analysis
+                will be visualized using real-time data.
+            </p>
+
+            <div class="map-placeholder">
+                <span>🗺️ City Route Map Placeholder</span>
+            </div>
+        </section>
+
+        <!-- Camera Section -->
+        <section class="camera-section">
+            <h2>Live Camera Feed</h2>
+            <p class="section-description">
+                Live webcam feed used for monitoring real-time urban
+                conditions and visual inputs for the mobility system.
+            </p>
+
+            <div class="camera-container">
+                <video id="webcam" autoplay playsinline></video>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="dashboard-footer">
+        <p>© 2026 FlowOptimal — Smart Urban Mobility System</p>
+    </footer>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
