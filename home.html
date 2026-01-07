@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlowOptimal | SUMS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
 
     <header class="navbar">
-        <h1 class="team-name">FlowOptimal</h1>
+        <h1 class="team-name">
+            FlowOptimal
+            <span class="traffic-signal">
+                <div class="light red"></div>
+                <div class="light yellow"></div>
+                <div class="light green"></div>
+            </span>
+        </h1>
     </header>
 
     <main class="hero-section">
-        <h2 class="project-name">SUMS</h2>
-        <p class="project-tagline">
-            Smart Urban Mobility System
-        </p>
-
-        <div class="project-description">
-            <p>
-                SUMS is capable for revolutionizing 
-                urban traffic management by integrating 
-                IoT sensors with artificial intelligence to 
-                create adaptive, intelligent intersections.
-            </p>
+        <div class="hero-container">
+            <div class="floating-shapes" id="floating-shapes"></div>
+            <h2 class="project-name">SUMS</h2>
+            <p class="project-tagline">Smart Urban Mobility System</p>
+            <div class="project-description">
+                SUMS optimizes urban traffic by combining IoT sensing,
+                real-time analytics, and AI-driven signal adaptation to
+                build safer, faster, and more intelligent cities.
+            </div>
+            <button class="cta-button" id="explore">Explore System</button>
         </div>
-
-        <button class="cta-button" id = "explore">Explore Project</button>
     </main>
 
     <footer class="footer">
-        <p>© 2026 FlowOptimal. All rights reserved.</p>
+        © 2026 FlowOptimal
     </footer>
 
-    <script src = "home.js"></script>
+    <script src="home.js"></script>
 </body>
+
 </html>
