@@ -13,15 +13,21 @@
     <div class="dashboard-wrapper">
 
         <header class="dashboard-header">
+            <div class="traffic-lights">
+                <span class="light red"></span>
+                <span class="light yellow"></span>
+                <span class="light green"></span>
+            </div>
+
             <h1>SUMS Dashboard</h1>
             <p>Smart Urban Mobility System • FlowOptimal</p>
         </header>
 
         <main class="dashboard-container">
             <section>
-                <h1 class = "problem">What is wrong</h1>
+                <h1 class="problem">What is wrong</h1>
 
-                <p class = "problem-description">
+                <p class="problem-description">
                     Urban traffic congestion, particularly at signalized
                     intersections, causes massive economic losses, environmental
                     damage, and reduced quality of life. Current traffic management
@@ -34,26 +40,26 @@
 
             <section>
 
-                <h1 class = "solution">Our Solution</h1>
+                <h1 class="solution">Our Solution</h1>
 
-                <p class = "solution-description">
+                <p class="solution-description">
                     We propose an integrated system that combines IoT sensing with
                     AI-driven optimization. Four ultrasonic sensors at each intersection
-                    monitor traffic queues in real-time. This data feeds into two 
-                    complementary machine learning models: a Reinforcement Learning system 
-                    that dynamically adjusts traffic signals, and a Predictive Analytics 
-                    model that forecasts traffic patterns for route recommendations. Results 
-                    are delivered through a userfriendly web application that advises drivers 
+                    monitor traffic queues in real-time. This data feeds into two
+                    complementary machine learning models: a Reinforcement Learning system
+                    that dynamically adjusts traffic signals, and a Predictive Analytics
+                    model that forecasts traffic patterns for route recommendations. Results
+                    are delivered through a userfriendly web application that advises drivers
                     on optimal travel times and routes.
 
                 </p>
 
             </section>
 
-            <div class = "buttons">
-                <button class = "cta-button" id = "predict-route">Predict Route</button>
+            <div class="buttons">
+                <button class="cta-button" id="predict-route">Predict Route</button>
 
-                <button class = "cta-button" id = "control-traffic">Control Traffic</button>
+                <button class="cta-button" id="control-traffic">Control Traffic</button>
             </div>
         </main>
 
